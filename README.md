@@ -16,7 +16,7 @@ TwitterのAPIを簡単に扱えるようにする
         // Access Token は $token["oauth_token"] に入っています(以下ソースコード中ではACCESS_TOKENとします)。
         // Access Token Secret は $token["oauth_token_secret"] に入っています(以下ソースコード中ではACCESS_TOKEN_SECRETとします)。
 
-この時必ず oauth_callback_confirmed が _true_ であることを確認する。
+    この時必ず oauth_callback_confirmed が _true_ であることを確認する。
 
         if($token["oauth_callback_confirmed"] !== "true"){
             // エラー処理
